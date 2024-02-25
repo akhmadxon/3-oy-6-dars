@@ -1,0 +1,38 @@
+.navbar {
+  width: 100%;
+  padding: 18px 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .navbar-logo {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.navbar .navbar-logo img {
+  width: 65px;
+  height: 70px;
+}
+.navbar .navbar-logo h1 {
+  color: #333333;
+  line-height: 38px;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-family: "oswald";
+}
+.navbar .navbar-items {
+  display: flex;
+  gap: 34px;
+}
+.navbar .navbar-items a {
+  color: #404040;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "mont";
+}
+.navbar .navbar-items a:hover {
+  color: #8BCAC3;
+}/*# sourceMappingURL=navbar.css.map */

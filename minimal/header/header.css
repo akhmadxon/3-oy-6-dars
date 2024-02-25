@@ -1,0 +1,78 @@
+@import url(./nav/navbar.css);
+.header-main2 button {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header-main .line {
+  width: 100px;
+  height: 2px;
+  border: none;
+}
+
+.header-main {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../bg.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 105px 384px;
+  position: relative;
+}
+.header-main h2 {
+  width: 65%;
+  color: #fff;
+  line-height: 60px;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "mont";
+  text-align: center;
+  text-transform: uppercase;
+}
+.header-main .line {
+  background-color: #fff;
+}
+
+.header-main-paragraf {
+  color: #fff;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.header-main-img {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  top: 405px;
+}
+
+.header-main2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 250px;
+  background-color: #FEFEC9;
+}
+.header-main2 p {
+  width: 100%;
+  color: #47474F;
+  line-height: 33px;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 400;
+  font-family: "vollcorn";
+}
+.header-main2 button {
+  color: #47474F;
+  line-height: 20px;
+  font-size: 16px;
+  padding: 15px 34px;
+  background-color: transparent;
+  border: 1px solid #47474F;
+  font-family: "vollcorn";
+}/*# sourceMappingURL=header.css.map */

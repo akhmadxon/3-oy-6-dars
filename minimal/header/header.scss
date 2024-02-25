@@ -1,0 +1,72 @@
+@import url(./navbar/navbar.css);
+@mixin data ($color,$l-height,$f-size){
+	color: $color;
+	line-height: $l-height;
+	font-size: $f-size;
+}
+%btn{
+	border-radius: 5px;
+	cursor: pointer;
+}
+%line{
+	width: 100px;
+	height: 2px;
+	border: none;
+}
+.header-main{
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	justify-content: center;
+	align-items: center;
+	background-image: url(../media/f999ac53acf59c27fcd3ac42cadd69f2.jfif);
+	background-position: center;
+	background-size: cover;
+	padding: 105px 384px;
+	position: relative;
+	h2{
+		width: 65%;
+		@include data(#fff,60px,48px);
+		font-weight: 400;
+		font-family: "mont";
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.line{
+		@extend %line;
+		background-color: #fff;
+	}
+}
+.header-main-paragraf{
+	@include data(#fff,30px,20px)
+}
+.header-main-img{
+	position: absolute;
+	width: 55px;
+	height: 55px;
+	top: 405px;
+}
+.header-main2{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 40px;
+	padding: 60px 250px;
+	background-color: #FEFEC9;
+	p{
+		width: 100%;
+		@include data(#47474F,33px,28px);
+		text-align: center;
+		font-weight: 400;
+		font-family: "vollcorn";
+	}
+	button{
+		@extend %btn;
+		@include data(#47474F,20px,16px);
+		padding: 15px 34px;
+		background-color: transparent;
+		border: 1px solid #47474F;
+		font-family: "vollcorn";
+	}
+}

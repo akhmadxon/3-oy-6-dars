@@ -1,0 +1,40 @@
+@mixin data ($color,$l-height,$f-size){
+	color: $color;
+	line-height: $l-height;
+	font-size: $f-size;
+}
+.navbar{
+	width: 100%;
+	padding: 18px 250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.navbar-logo{
+		display: flex;
+		gap: 18px;
+		align-items: center;
+		img{
+			width: 65px;
+			height: 70px;
+		}
+		h1{
+			@include data(#333333, 38px, 22px);
+			font-weight: 400;
+			text-transform: uppercase;
+			font-family: "oswald";
+		}
+	}
+	.navbar-items{
+		display: flex;
+		gap: 34px;
+		a{
+			@include data(#404040, 20px, 15px);
+			font-weight: 400;
+			font-family: "mont";
+			&:hover{
+				color: #8BCAC3;
+			}
+		}
+	}
+
+}

@@ -1,0 +1,68 @@
+.main-thrives .main-thrivesHeader .main-ThrivesLine {
+  width: 120px;
+  height: 2px;
+  border: none;
+}
+
+.main-thrives {
+  padding: 69px 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+  justify-content: center;
+  align-items: center;
+}
+.main-thrives .main-thrivesHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+}
+.main-thrives .main-thrivesHeader h2 {
+  color: #333;
+  line-height: 40px;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "mont";
+  text-transform: uppercase;
+}
+.main-thrives .main-thrivesHeader .main-ThrivesLine {
+  background: rgba(0, 0, 0, 0.0901960784);
+}
+.main-thrives .main-ThrivesItems {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.main-thrives .main-ThrivesItems .main-ThrivesItem {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 38px;
+  padding: 0px 10px;
+}
+.main-thrives .main-ThrivesItems .main-ThrivesItem img {
+  width: 100%;
+  height: 350px;
+}
+.main-thrives .main-ThrivesItems .main-ThrivesItem-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-thrives .main-ThrivesItems .main-ThrivesItem-text h3 {
+  color: #333;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "mont";
+  text-transform: uppercase;
+}
+.main-thrives .main-ThrivesItems .main-ThrivesItem-text p {
+  color: #333;
+  line-height: 30px;
+  font-size: 23px;
+  font-family: "vollcorn";
+  font-weight: 400;
+}/*# sourceMappingURL=thrives.css.map */
