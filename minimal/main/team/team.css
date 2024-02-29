@@ -77,4 +77,281 @@
   line-height: 0px;
   font-size: 20px;
   cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .main-team {
+    padding: 10px 60px;
+    gap: 15px;
+  }
+  .main-team .main-teamHeader {
+    gap: 15px;
+  }
+  .main-team .main-teamHeader h2 {
+    color: #333;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .main-team .main-teamHeader .main-teamLine {
+    height: 1px;
+  }
+  .main-team .main-teamItems {
+    justify-content: center;
+    padding: 0px 5px;
+    gap: 15px;
+  }
+  .main-team .main-teamItems .main-teamItem {
+    width: 60%;
+  }
+  .main-team .main-teamItems .main-teamItem img {
+    width: 100%;
+    height: 150px;
+  }
+  .main-team .main-teamItems .main-teamItem-text {
+    padding: 19px;
+    gap: 2px;
+  }
+  .main-team .main-teamItems .main-teamItem-text h3 {
+    color: #333;
+    line-height: 14px;
+    font-size: 8px;
+  }
+  .main-team .main-teamItems .main-teamItem-text p {
+    color: #333;
+    line-height: 14px;
+    font-size: 9px;
+  }
+  .main-team .main-teamItems .team-icons {
+    gap: 10px;
+    color: #000;
+    line-height: 14px;
+    font-size: 9px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .main-team {
+    padding: 20px 100px;
+    gap: 20px;
+  }
+  .main-team .main-teamHeader {
+    gap: 20px;
+  }
+  .main-team .main-teamHeader h2 {
+    color: #333;
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .main-team .main-teamHeader .main-teamLine {
+    height: 1px;
+  }
+  .main-team .main-teamItems {
+    justify-content: center;
+    padding: 0px 5px;
+    gap: 20px;
+  }
+  .main-team .main-teamItems .main-teamItem {
+    width: 60%;
+  }
+  .main-team .main-teamItems .main-teamItem img {
+    width: 100%;
+    height: 200px;
+  }
+  .main-team .main-teamItems .main-teamItem-text {
+    padding: 19px;
+    gap: 2px;
+  }
+  .main-team .main-teamItems .main-teamItem-text h3 {
+    color: #333;
+    line-height: 16px;
+    font-size: 10px;
+  }
+  .main-team .main-teamItems .main-teamItem-text p {
+    color: #333;
+    line-height: 16px;
+    font-size: 10px;
+  }
+  .main-team .main-teamItems .team-icons {
+    gap: 10px;
+    color: #000;
+    line-height: 16px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-team {
+    padding: 40px 150px;
+    gap: 25px;
+  }
+  .main-team .main-teamHeader {
+    gap: 25px;
+  }
+  .main-team .main-teamHeader h2 {
+    color: #333;
+    line-height: 24px;
+    font-size: 18px;
+  }
+  .main-team .main-teamHeader .main-teamLine {
+    height: 2px;
+  }
+  .main-team .main-teamItems {
+    justify-content: center;
+    padding: 0px 10px;
+    gap: 25px;
+  }
+  .main-team .main-teamItems .main-teamItem {
+    width: 50%;
+  }
+  .main-team .main-teamItems .main-teamItem img {
+    width: 100%;
+    height: 300px;
+  }
+  .main-team .main-teamItems .main-teamItem-text {
+    padding: 19px;
+    gap: 2px;
+  }
+  .main-team .main-teamItems .main-teamItem-text h3 {
+    color: #333;
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .main-team .main-teamItems .main-teamItem-text p {
+    color: #333;
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .main-team .main-teamItems .team-icons {
+    gap: 10px;
+    color: #000;
+    line-height: 22px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .main-thrives {
+    padding: 20px 60px;
+    gap: 15px;
+  }
+  .main-thrives .main-thrivesHeader {
+    gap: 15px;
+  }
+  .main-thrives .main-thrivesHeader h2 {
+    color: #333;
+    line-height: 18px;
+    font-size: 12px;
+  }
+  .main-thrives .main-thrivesHeader .main-ThrivesLine {
+    height: 1px;
+  }
+  .main-thrives .main-ThrivesItems {
+    gap: 20px;
+    justify-content: center;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem {
+    width: 80%;
+    gap: 15px;
+    padding: 0px 5px;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem img {
+    width: 100%;
+    height: 150px;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem-text {
+    gap: 10px;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem-text h3 {
+    color: #333;
+    line-height: 16px;
+    font-size: 10px;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem-text p {
+    color: #333;
+    line-height: 16px;
+    font-size: 10px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .main-thrives {
+    padding: 30px 100px;
+    gap: 20px;
+  }
+  .main-thrives .main-thrivesHeader {
+    gap: 20px;
+  }
+  .main-thrives .main-thrivesHeader h2 {
+    color: #333;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .main-thrives .main-thrivesHeader .main-ThrivesLine {
+    height: 1px;
+  }
+  .main-thrives .main-ThrivesItems {
+    gap: 20px;
+    justify-content: center;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem {
+    width: 70%;
+    gap: 25px;
+    padding: 0px 5px;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem img {
+    width: 100%;
+    height: 170px;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem-text {
+    gap: 10px;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem-text h3 {
+    color: #333;
+    line-height: 18px;
+    font-size: 12px;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem-text p {
+    color: #333;
+    line-height: 18px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-thrives {
+    padding: 40px 150px;
+    gap: 30px;
+  }
+  .main-thrives .main-thrivesHeader {
+    gap: 30px;
+  }
+  .main-thrives .main-thrivesHeader h2 {
+    color: #333;
+    line-height: 28px;
+    font-size: 22px;
+  }
+  .main-thrives .main-thrivesHeader .main-ThrivesLine {
+    height: 2px;
+  }
+  .main-thrives .main-ThrivesItems {
+    gap: 30px;
+    justify-content: center;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem {
+    width: 50%;
+    gap: 30px;
+    padding: 0px 10px;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem img {
+    width: 100%;
+    height: 250px;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem-text {
+    gap: 20px;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem-text h3 {
+    color: #333;
+    line-height: 24px;
+    font-size: 18px;
+  }
+  .main-thrives .main-ThrivesItems .main-ThrivesItem-text p {
+    color: #333;
+    line-height: 24px;
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=team.css.map */

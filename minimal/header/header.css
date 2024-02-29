@@ -75,4 +75,128 @@
   background-color: transparent;
   border: 1px solid #47474F;
   font-family: "vollcorn";
+}
+
+@media (max-width: 480px) {
+  .header-main {
+    gap: 8px;
+    padding: 10px 60px;
+    position: relative;
+  }
+  .header-main h2 {
+    color: #fff;
+    line-height: 18px;
+    font-size: 12px;
+  }
+  .header-main .line {
+    height: 1px;
+  }
+  .header-main-paragraf {
+    color: #fff;
+    line-height: 13px;
+    font-size: 7px;
+  }
+  .header-main-img {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 78px;
+  }
+  .header-main2 {
+    gap: 20px;
+    padding: 15px 24px;
+  }
+  .header-main2 p {
+    color: #47474F;
+    line-height: 12px;
+    font-size: 6px;
+  }
+  .header-main2 button {
+    color: #47474F;
+    line-height: 13px;
+    font-size: 7px;
+    padding: 4px 10px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .header-main {
+    gap: 12px;
+    padding: 20px 100px;
+    position: relative;
+  }
+  .header-main h2 {
+    color: #fff;
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .header-main .line {
+    height: 1px;
+  }
+  .header-main-paragraf {
+    color: #fff;
+    line-height: 15px;
+    font-size: 9px;
+  }
+  .header-main-img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 97px;
+  }
+  .header-main2 {
+    gap: 20px;
+    padding: 25px 30px;
+  }
+  .header-main2 p {
+    color: #47474F;
+    line-height: 14px;
+    font-size: 8px;
+  }
+  .header-main2 button {
+    color: #47474F;
+    line-height: 15px;
+    font-size: 9px;
+    padding: 8px 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header-main {
+    gap: 16px;
+    padding: 30px 160px;
+    position: relative;
+  }
+  .header-main h2 {
+    color: #fff;
+    line-height: 24px;
+    font-size: 18px;
+  }
+  .header-main .line {
+    height: 2px;
+  }
+  .header-main-paragraf {
+    color: #fff;
+    line-height: 19px;
+    font-size: 13px;
+  }
+  .header-main-img {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 150px;
+  }
+  .header-main2 {
+    gap: 30px;
+    padding: 35px 40px;
+  }
+  .header-main2 p {
+    color: #47474F;
+    line-height: 18px;
+    font-size: 12px;
+  }
+  .header-main2 button {
+    color: #47474F;
+    line-height: 19px;
+    font-size: 13px;
+    padding: 12px 19px;
+  }
 }/*# sourceMappingURL=header.css.map */
